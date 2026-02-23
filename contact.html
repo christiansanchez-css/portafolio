@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto ▪ Christian Sánchez</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Cairo:wght@400;600;900&display=swap" rel="stylesheet">
+    
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="close-menu" onclick="toggleMenu()">
+            <i data-lucide="x" size="40"></i>
+        </button>
+        <a href="work.html" onclick="toggleMenu()">Portafolio</a>
+        <a href="aboutme.html" onclick="toggleMenu()">Sobre mí</a>
+        <a href="contact.html" onclick="toggleMenu()">Contacto</a>
+    </div>
+
+
+    <nav id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Christian Sánchez<span>.</span></a>
+            <div class="nav-links">
+                <a href="work.html">Portafolio</a>
+                <a href="aboutme.html">Sobre mí</a>
+                <a href="contact.html" class="active">Contacto</a>
+            </div>
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <section class="work-hero section-dark">
+        <div class="container">
+            <p class="category-label">Contacto</p>
+            <h1>Hablemos</h1>
+            <p class="work-description">
+                ¿Tienes un proyecto en mente o buscas una colaboración? Escríbeme y hablemos sobre cómo puedo ayudarte a materializar tu idea.
+            </p>
+        </div>
+    </section>
+    
+    <section id="contact-content" class="section-light">
+        <div class="container contact-layout">
+            <div class="contact-info">                
+                <div class="info-block">
+                    <h5>Email</h5>
+                    <a href="mailto:christiansanchez.css@gmail.com" class="info-link">christiansanchez.css@gmail.com</a>
+                </div>
+                <div class="info-block">
+                    <h5>Social</h5>
+                    <ul class="social-list">
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">Behance</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <form action="https://formspree.io/f/mpqjyvve" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="full-name">Nombre completo</label>
+                    <input type="text" id="full-name" name="name" placeholder="Escribe tu nombre" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="_replyto" placeholder="tu@email.com" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="subject">Asunto</label>
+                    <input type="text" id="subject" name="subject" placeholder="¿De qué trata tu consulta?" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Cuéntame sobre tu proyecto" required></textarea>
+                </div>
+    
+                <button type="submit" class="btn">
+                    Enviar mensaje
+                    <i data-lucide="send" size="18"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer id="contacto" class="section-dark">
+        <div class="container">
+            
+            <div class="footer-bottom">
+                <div class="footer-brand">
+                    <div class="logo" style="margin-bottom: 1rem;">Christian Sánchez<span>.</span></div>
+                    <p style="color: var(--text-muted); font-size: 0.8rem;">Basado en la intersección de lo físico y lo digital.</p>
+                </div>
+                
+                <div class="footer-nav">
+                    <div>
+                        <h5>Navegación</h5>
+                        <ul>
+                            <li><a href="#portfolio">Portafolio</a></li>
+                            <li><a href="#servicios">Servicios</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5>Conectar</h5>
+                        <ul>
+                            <li><a href="#">LinkedIn</a></li>
+                            <li><a href="#">Behance</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 4rem; font-size: 0.7rem; color: #333;">
+                &copy; 2024 • Diseñado con precisión.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    
+        function toggleMenu() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('active');
+        }
+    
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    @keyframes expandHole {
+      0%, 55.55% { transform: scale(0); }
+      88.88%, 100% { transform: scale(1.5); }
+    }
+
+    @keyframes growCore {
+      0%, 88.88% { transform: scale(0); }
+      100% { transform: scale(1); }
+    }
+
+    .center-origin {
+      transform-origin: center;
+    }
+  </style>
+
+  <defs>
+    <mask id="holeMask">
+      <rect width="100" height="100" fill="white" rx="20" />
+      <rect class="center-origin" width="100" height="100" fill="black" rx="20" style="animation: expandHole 9s ease-in-out infinite;" />
+    </mask>
+  </defs>
+
+  <rect width="100" height="100" fill="#0056FB" rx="20" mask="url(#holeMask)" />
+
+  <rect class="center-origin" width="100" height="100" fill="#0056FB" rx="20" style="animation: growCore 9s ease-in-out infinite;" />
+</svg>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio ▪ Christian Sánchez</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Cairo:wght@400;600;900&display=swap" rel="stylesheet">
+    
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="close-menu" onclick="toggleMenu()">
+            <i data-lucide="x" size="40"></i>
+        </button>
+        <a href="work.html" onclick="toggleMenu()">Portafolio</a>
+        <a href="aboutme.html" onclick="toggleMenu()">Sobre mí</a>
+        <a href="contact.html" onclick="toggleMenu()">Contacto</a>
+    </div>
+
+
+    <nav id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Christian Sánchez<span>.</span></a>
+            <div class="nav-links">
+                <a href="work.html" class="active">Portafolio</a>
+                <a href="aboutme.html">Sobre mí</a>
+                <a href="contact.html">Contacto</a>
+            </div>
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <header class="project-header section-dark">
+            <div class="container">
+                <p class="category-label">Comunicación Interna / Diseño Gráfico</p>
+                <h1 class="project-title" style="margin-bottom: 4rem;">Cultura y Conexión: El Lenguaje Visual de la Intranet</h1>
+                
+                <div class="project-hero-media">
+                    <img src="img/02.png" alt="Comunicación Visual TFJA">
+                </div>
+            </div>
+        </header>
+    
+        <section class="project-overview section-light">
+            <div class="container">
+                <div class="overview-grid">
+                    <div class="overview-text">
+                        <h2>Misión: Humanizar la Institución</h2>
+                        <p>La intranet de una institución gubernamental suele ser percibida como un espacio frío y puramente administrativo. Mi reto fue transformar este canal en un **ecosistema visual vibrante** que no solo informara, sino que generara pertenencia.</p>
+                        <p>Desde campañas críticas de ciberseguridad hasta la promoción de convenios de entretenimiento, cada pieza fue diseñada para romper el ruido digital y conectar con el lado humano de los servidores públicos.</p>
+                    </div>
+    
+                    <div class="overview-meta">
+                        <div class="meta-item">
+                            <h4>Alcance</h4>
+                            <p>+1,500 Colaboradores<br>Intranet Nacional TFJA</p>
+                        </div>
+                        <div class="meta-item">
+                            <h4>Servicios</h4>
+                            <ul>
+                                <li>Diseño Editorial & Digital</li>
+                                <li>Branding Interno</li>
+                                <li>Infografía Educativa</li>
+                            </ul>
+                        </div>
+                        <div class="meta-item">
+                            <h4>Herramientas</h4>
+                            <p>Adobe Creative Cloud</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="project-impact">
+            <div class="container">
+                <div class="impact-grid">
+                    <div class="impact-item">
+                        <h3>Conciencia</h3>
+                        <p>Ciberseguridad</p>
+                        <span>Prevención visual contra el Ransomware.</span>
+                    </div>
+                    <div class="impact-item">
+                        <h3>Comunidad</h3>
+                        <p>Clima Laboral</p>
+                        <span>Espacios de venta y entretenimiento diseñados para el empleado.</span>
+                    </div>
+                    <div class="impact-item">
+                        <h3>Bienestar</h3>
+                        <p>Convenios</p>
+                        <span>Difusión efectiva de beneficios y cultura.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="project-section section-light">
+            <div class="container">
+                
+                <div class="project-section-text">
+                    <h2>Conciencia y Seguridad Crítica</h2>
+                    <p>En una institución que maneja justicia, la información es el activo más valioso. Diseñé campañas visuales de alto impacto para temas de **Ransomware** y el **Manejo Correcto de Archivos**, transformando directrices técnicas en mensajes claros y memorables.</p>
+                    <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1rem;">
+                        <a href="https://assets.adobe.com/id/urn:aaid:sc:VA6C2:b89deb86-6f90-4ba8-a960-c30637ad4f40?view=published" target="_blank" class="btn-text">Campaña Ransomware <i data-lucide="external-link"></i></a>
+                        <a href="https://assets.adobe.com/id/urn:aaid:sc:VA6C2:d0f32f44-44ad-4076-84cc-1ee7d43c8200?view=published" target="_blank" class="btn-text">Gestión de Archivos <i data-lucide="external-link"></i></a>
+                    </div>
+                </div>
+    
+                <div class="project-section-text">
+                    <h2>Convenios que Inspiran</h2>
+                    <p>La comunicación de beneficios (Alianza Francesa, La Europea, Bioparque Estrella) se alejó de lo genérico para adoptar un estilo aspiracional. El objetivo: que el trabajador sintiera que el TFJA se preocupa por su desarrollo personal y tiempo libre.</p>
+                    <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1rem;">
+                        <a href="https://assets.adobe.com/id/urn:aaid:sc:US:005d2d99-ba08-4bac-b6ff-3db9fc01e697?view=published" target="_blank" class="btn-text">Alianza Francesa <i data-lucide="external-link"></i></a>
+                        <a href="https://assets.adobe.com/id/urn:aaid:sc:VA6C2:55fa2871-aac3-466e-837a-aca5dfaa08dc?view=published" target="_blank" class="btn-text">La Europea <i data-lucide="external-link"></i></a>
+                        <a href="https://assets.adobe.com/id/urn:aaid:sc:VA6C2:429f8080-eb39-4401-8026-fc5058a37ad0?view=published" target="_blank" class="btn-text">Bioparque Estrella <i data-lucide="external-link"></i></a>
+                    </div>
+                </div>
+    
+                <div class="project-section-text">
+                    <h2>El Lado Humano de la Intranet</h2>
+                    <p>Desde la lúdica campaña de **Pingüinos para Capacitación** hasta la creación de comunidades de venta interna y secciones de entretenimiento, estas piezas construyeron puentes entre colegas, fortaleciendo el tejido social de la institución.</p>
+                    <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1rem;">
+                        <a href="https://assets.adobe.com/id/urn:aaid:sc:VA6C2:cd8f813c-6ca5-49d5-8f6e-23ddfec81b75?view=published" target="_blank" class="btn-text">Pingüinos Capacitación <i data-lucide="external-link"></i></a>
+                        <a href="https://assets.adobe.com/id/urn:aaid:sc:VA6C2:30ae6c28-3e62-4490-9d80-8f14d26fd059?view=published" target="_blank" class="btn-text">Sección Entretenimiento <i data-lucide="external-link"></i></a>
+                        <a href="https://assets.adobe.com/id/urn:aaid:sc:VA6C2:8f1eb3b0-9d2e-43ac-9124-95012ad8d41c?view=published" target="_blank" class="btn-text">Comunidad de Venta <i data-lucide="external-link"></i></a>
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+    </main>
+
+    <footer id="contacto" class="section-dark">
+        <div class="container">
+            <div class="footer-cta">
+                <h3>¿Tienes un desafío que requiere una visión técnica y creativa?</h3>
+                <a href="contact.html" class="btn">Hablemos de tu idea</a>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-brand">
+                    <div class="logo" style="margin-bottom: 1rem;">Christian Sánchez<span>.</span></div>
+                    <p style="color: var(--text-muted); font-size: 0.8rem;">Basado en la intersección de lo físico y lo digital.</p>
+                </div>
+                
+                <div class="footer-nav">
+                    <div>
+                        <h5>Navegación</h5>
+                        <ul>
+                            <li><a href="#portfolio">Portafolio</a></li>
+                            <li><a href="#servicios">Servicios</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5>Conectar</h5>
+                        <ul>
+                            <li><a href="#">LinkedIn</a></li>
+                            <li><a href="#">Behance</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 4rem; font-size: 0.7rem; color: #333;">
+                &copy; 2024 • Diseñado con precisión.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    
+        function toggleMenu() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('active');
+        }
+    
+    </script>
+</body>
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christian Sánchez</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Cairo:wght@400;600;900&display=swap" rel="stylesheet">
+    
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="close-menu" onclick="toggleMenu()">
+            <i data-lucide="x" size="40"></i>
+        </button>
+        <a href="work.html" onclick="toggleMenu()">Portafolio</a>
+        <a href="aboutme.html" onclick="toggleMenu()">Sobre mí</a>
+        <a href="contact.html" onclick="toggleMenu()">Contacto</a>
+    </div>
+
+    <nav id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Christian Sánchez<span>.</span></a>
+            <div class="nav-links">
+                <a href="work.html">Portafolio</a>
+                <a href="aboutme.html">Sobre mí</a>
+                <a href="contact.html">Contacto</a>
+            </div>
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <section class="hero section-dark">
+        <div class="container">
+            <div class="hero-content">
+                <h1><strong>Diseño sin fronteras</strong>: De la precisión estética al sistema funcional.</h1>
+                <p>Alta fidelidad visual impulsada por un enfoque holístico de UX</p>
+                <a href="#portfolio" class="btn">
+                    Explorar Proyectos
+                    <i data-lucide="arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="manifesto section-light">
+        <div class="container">
+            <div class="accent-dot"></div>
+            <p class="manifesto-text">
+                "En un mundo saturado de ruido, la <em>coherencia</em> es el nuevo lujo. Diseño soluciones que no solo se ven bien, sino que <em>funcionan</em> en todas las dimensiones."
+            </p>
+        </div>
+    </section>
+
+    <section id="servicios" class="section-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2>Servicios</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i data-lucide="cog"></i>
+                    <h3>Innovación Tangible</h3>
+                    <p>Especialista en diseño de movilidad y empaque estructural. Transformo ideas en objetos físicos funcionales.</p>
+                    <div class="tags">Diseño de Productos</div>
+                </div>
+                <div class="service-card">
+                    <i data-lucide="layers"></i>
+                    <h3>Ecosistemas Digitales</h3>
+                    <p>Diseño UX/UI centrado en el usuario y desarrollo frontend sólido.</p>
+                    <div class="tags">Web & App Design</div>
+                </div>
+                <div class="service-card">
+                    <i data-lucide="box"></i>
+                    <h3>Inmersión Visual</h3>
+                    <p>Arte 3D, modelado de personajes y visualización de producto de alto impacto.</p>
+                    <div class="tags">3D & CGI</div>
+                </div>
+                <div class="service-card">
+                    <i data-lucide="pentagon"></i>
+                    <h3>Narrativa Visual</h3>
+                    <p>Branding estratégico y contenido multimedia. Creamos la voz de tu proyecto.</p>
+                    <div class="tags">Estrategia & Marca</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Trabajos</h2>
+            </div>
+            
+            <div class="portfolio-list">
+                <article class="portfolio-card">
+                    <div class="portfolio-content">
+                        <div class="portfolio-top">
+                            <h4>Justicia Digital: Reingeniería de la Experiencia para el TFJA</h4>
+                            <p>UX / UI</p>
+                        </div>
+                        <div class="portfolio-bottom">
+                            <a href="work-01.html" class="btn-text">Ver proyecto <i data-lucide="chevron-right" size="18"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="img/01.png" alt="Bicicleta">
+                    </div>
+                </article>
+
+                <article class="portfolio-card">
+                    <div class="portfolio-content">
+                        <div class="portfolio-top">
+                            <h4>Cultura y Conexión: El Lenguaje Visual de la Intranet</h4>
+                            <p>Comunicación Interna / Diseño Gráfico</p>
+                        </div>
+                        <div class="portfolio-bottom">
+                            <a href="work-02.html" class="btn-text">Explorar interfaz <i data-lucide="chevron-right" size="18"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="img/02.png" alt="Web Design">
+                    </div>
+                </article>
+
+            <div class="portfolio-footer">
+                <a href="work.html" class="btn-text btn-view-all">
+                    Ver todos los trabajos 
+                    <i data-lucide="arrow-right" size="22"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacto" class="section-dark">
+        <div class="container">
+            <div class="footer-cta">
+                <h3>¿Tienes un desafío que requiere una visión técnica y creativa?</h3>
+                <a href="contact.html" class="btn">Hablemos de tu idea</a>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-brand">
+                    <div class="logo" style="margin-bottom: 1rem;">Christian Sánchez<span>.</span></div>
+                    <p style="color: var(--text-muted); font-size: 0.8rem;">Basado en la intersección de lo físico y lo digital.</p>
+                </div>
+                
+                <div class="footer-nav">
+                    <div>
+                        <h5>Navegación</h5>
+                        <ul>
+                            <li><a href="#portfolio">Portafolio</a></li>
+                            <li><a href="#servicios">Servicios</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5>Conectar</h5>
+                        <ul>
+                            <li><a href="#">LinkedIn</a></li>
+                            <li><a href="#">Behance</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 4rem; font-size: 0.7rem; color: #333;">
+                &copy; 2024 • Diseñado con precisión.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    
+        function toggleMenu() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('active');
+        }
+
+    </script>
+</body>
+</html>

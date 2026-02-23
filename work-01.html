@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio ▪ Christian Sánchez</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Cairo:wght@400;600;900&display=swap" rel="stylesheet">
+    
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="close-menu" onclick="toggleMenu()">
+            <i data-lucide="x" size="40"></i>
+        </button>
+        <a href="work.html" onclick="toggleMenu()">Portafolio</a>
+        <a href="aboutme.html" onclick="toggleMenu()">Sobre mí</a>
+        <a href="contact.html" onclick="toggleMenu()">Contacto</a>
+    </div>
+
+
+    <nav id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Christian Sánchez<span>.</span></a>
+            <div class="nav-links">
+                <a href="work.html" class="active">Portafolio</a>
+                <a href="aboutme.html">Sobre mí</a>
+                <a href="contact.html">Contacto</a>
+            </div>
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <header class="project-header section-dark">
+            <div class="container">
+                <p class="category-label">UX / UI</p>
+                <h1 class="project-title" style="margin-bottom: 4rem;">Justicia Digital: Reingeniería de la Experiencia para el TFJA</h1>
+                
+                <div class="project-hero-media">
+                    <img src="img/01.png" alt="Rediseño Justicia en Línea">
+                </div>
+            </div>
+        </header>
+    
+        <section class="project-overview section-light">
+            <div class="container">
+                <div class="overview-grid">
+                    <div class="overview-text">
+                        <h2>Misión: El Rescate de la Versión 2</h2>
+                        <p>El Sistema de Justicia en Línea V.2 del TFJA presentaba desafíos críticos de usabilidad que dificultaban el acceso a la justicia. Mi intervención se centró en un proceso de rescate basado en análisis heurísticos y pruebas con usuarios reales para transformar un sistema complejo en una herramienta de precisión y claridad.</p>
+                        <p>El resultado fue una suite de soluciones que abarcan desde el acompañamiento al ciudadano hasta la optimización de los procesos internos de los magistrados.</p>
+                    </div>
+    
+                    <div class="overview-meta">
+                        <div class="meta-item">
+                            <h4>Cliente</h4>
+                            <p>Tribunal Federal de Justicia Administrativa<br>México</p>
+                        </div>
+                        <div class="meta-item">
+                            <h4>Servicios</h4>
+                            <ul>
+                                <li>UX Research & Heurísticas</li>
+                                <li>Diseño de Sistemas Complejos</li>
+                                <li>Arquitectura de Información</li>
+                            </ul>
+                        </div>
+                        <div class="meta-item">
+                            <h4>Mi Rol</h4>
+                            <p>UX/UI Designer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="project-impact">
+            <div class="container">
+                <div class="overview-text">
+                    <h2>Impacto de la Transformación</h2>
+                </div>
+                
+                <div class="impact-grid">
+                    <div class="impact-item">
+                        <h3>-55%</h3>
+                        <p>Reducción de Fricción</p>
+                        <span>En el registro de demandas mediante el flujo asistido (Wizard).</span>
+                    </div>
+                    <div class="impact-item">
+                        <h3>Auto-gestión</h3>
+                        <p>Educación Visual</p>
+                        <span>Reducción de tickets de soporte mediante la plataforma de video-ayuda.</span>
+                    </div>
+                    <div class="impact-item">
+                        <h3>Eficiencia</h3>
+                        <p>Optimización Interna</p>
+                        <span>Digitalización total de la gestión de sesiones en SISPRA.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="project-section section-light">
+            <div class="container">
+                
+                <div class="project-section-text">
+                    <h2>1. El Wizard: El Fin del Formulario Intimidante</h2>
+                    <p>Convertimos la carga de demandas en un proceso guiado paso a paso. Este prototipo reduce la parálisis por análisis al presentar solo la información necesaria en el momento justo, validando datos en tiempo real para evitar errores legales prevenibles.</p>
+                    <a href="https://xd.adobe.com/view/e59774a0-7805-4715-9a5a-da036b114631-b0c4/?locale=es-ES&mv=other&mv2=ahome&promoid=XKMMH7MW&xProduct=&xProductLocation=" target="_blank" class="btn-text">Ver Prototipo del Wizard <i data-lucide="arrow-right"></i></a>
+                </div>
+    
+                <div class="project-section-text">
+                    <h2>2. SISPRA: Orden en la Sala Virtual</h2>
+                    <p>Diseñamos la interfaz de "Orden del Día" para el sistema interno SISPRA. El reto era organizar información densa y técnica para que los funcionarios pudieran gestionar las sesiones con agilidad, eliminando el uso de documentos externos y centralizando el control en una interfaz limpia y profesional.</p>
+                    <a href="https://xd.adobe.com/view/a2ef4f46-4bb0-4f0a-900c-ecced028e956-f7bc/?locale=es-ES&mv=other&mv2=ahome&promoid=XKMMH7MW&xProduct=&xProductLocation=" target="_blank" class="btn-text">Ver Prototipo SISPRA <i data-lucide="arrow-right"></i></a>
+                </div>
+    
+                <div class="project-section-text">
+                    <h2>3. Educación Continua: Soporte 24/7</h2>
+                    <p>Para mitigar la curva de aprendizaje de la versión 2, diseñamos una plataforma de videos instruccionales. No es solo un repositorio; es una herramienta pedagógica que empodera al usuario para resolver dudas de navegación de forma autónoma, reduciendo la carga del centro de atención telefónica.</p>
+                    <a href="https://xd.adobe.com/view/0fabd3fd-a780-4d53-808a-09fdb688d04b-5af8/?locale=es-ES&mv=other&mv2=ahome&promoid=XKMMH7MW&xProduct=&xProductLocation=" target="_blank" class="btn-text">Explorar Plataforma de Video <i data-lucide="arrow-right"></i></a>
+                </div>
+    
+                <div class="project-section-text">
+                    <h2>4. Una Nueva Identidad Institucional</h2>
+                    <p>Finalmente, propusimos un rediseño para el sitio principal del TFJA. La prioridad fue la transparencia y la accesibilidad, proyectando una imagen de modernidad que esté a la altura de los nuevos retos de la justicia digital en México.</p>
+                    <a href="https://xd.adobe.com/view/a49dadfd-5a76-4309-b5f4-9b68a02e5fec-f1ce/?locale=es-ES&mv=other&mv2=ahome&promoid=XKMMH7MW&xProduct=&xProductLocation=" target="_blank" class="btn-text">Ver Propuesta de Sitio Web <i data-lucide="arrow-right"></i></a>
+                </div>
+    
+            </div>
+        </section>
+    </main>
+
+    <footer id="contacto" class="section-dark">
+        <div class="container">
+            <div class="footer-cta">
+                <h3>¿Tienes un desafío que requiere una visión técnica y creativa?</h3>
+                <a href="contact.html" class="btn">Hablemos de tu idea</a>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-brand">
+                    <div class="logo" style="margin-bottom: 1rem;">Christian Sánchez<span>.</span></div>
+                    <p style="color: var(--text-muted); font-size: 0.8rem;">Basado en la intersección de lo físico y lo digital.</p>
+                </div>
+                
+                <div class="footer-nav">
+                    <div>
+                        <h5>Navegación</h5>
+                        <ul>
+                            <li><a href="#portfolio">Portafolio</a></li>
+                            <li><a href="#servicios">Servicios</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5>Conectar</h5>
+                        <ul>
+                            <li><a href="#">LinkedIn</a></li>
+                            <li><a href="#">Behance</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 4rem; font-size: 0.7rem; color: #333;">
+                &copy; 2024 • Diseñado con precisión.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    
+        function toggleMenu() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('active');
+        }
+    
+    </script>
+</body>
+</html>

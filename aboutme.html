@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mí ▪ Christian Sánchez</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Cairo:wght@400;600;900&display=swap" rel="stylesheet">
+    
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="close-menu" onclick="toggleMenu()">
+            <i data-lucide="x" size="40"></i>
+        </button>
+        <a href="work.html" onclick="toggleMenu()">Portafolio</a>
+        <a href="aboutme.html" onclick="toggleMenu()">Sobre mí</a>
+        <a href="contact.html" onclick="toggleMenu()">Contacto</a>
+    </div>
+
+
+    <nav id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Christian Sánchez<span>.</span></a>
+            <div class="nav-links">
+                <a href="work.html">Portafolio</a>
+                <a href="aboutme.html" class="active">Sobre mí</a>
+                <a href="contact.html">Contacto</a>
+            </div>
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+        <main id="about-page">
+            <section class="about-hero section-dark">
+                <div class="container">
+                    <div class="about-hero-wrapper">
+                        <div class="about-hero-image">
+                            <img src="img/foto.png" alt="Christian Sánchez">
+                        </div>
+                        <div class="about-hero-text">
+                            <h1 class="about-title">Christian<br><strong>Sánchez</strong><span>.</span></h1>
+                            <p class="category-label" style="margin-bottom: 1.5rem;">Diseñador Gráfico <span>▪</span> Animador 3D <span>▪</span> UX/UI</p>
+                            <p class="about-bio">Soy un diseñador multidisciplinario especializado en <strong>interfaces web</strong>, <strong>modelado 3D</strong> y <strong>producción audiovisual</strong>. Me enfoco en transformar requerimientos complejos en soluciones visuales y técnicas, integrando <strong>diseño de producto</strong> y animación para crear <strong>experiencias de usuario</strong> de alto impacto.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="section-light">
+                <div class="container">
+                    <div class="about-main-layout">
+                        
+                        <div class="cv-section-main">
+                            
+                            <h2 style="font-family: var(--font-serif); font-size: 2.5rem; margin-bottom: 3rem;">Experiencia Profesional</h2>
+                            <div class="cv-list">
+                                <div class="cv-item">
+                                    <div class="cv-item-left">
+                                        <div class="cv-company-logo"><i data-lucide="briefcase"></i></div>
+                                    </div>
+                                    <div class="cv-item-right">
+                                        <div class="cv-item-header">
+                                            <h3>Diseñador Gráfico y UX/UI</h3>
+                                            <h4>Tribunal Federal de Justicia Administrativa (CDMX)</h4>
+                                            <span class="cv-date">2019-Presente</span>
+                                        </div>
+                                        <div class="cv-item-body">
+                                            <p>Responsable de la fidelidad visual y funcionalidad técnica en el desarrollo del sistema.</p>
+                                            <ul>
+                                                <li><strong>UI & Prototipado:</strong> Diseño de interfaces y prototipos de alta fidelidad para el Sistema de Justicia 2.0.</li>
+                                                <li><strong>Documentación Técnica:</strong> Creación de guías de estilo y componentes para asegurar la fidelidad del desarrollo.</li>
+                                                <li><strong>UX & Usabilidad:</strong> Ejecución de análisis heurísticos y pruebas con usuarios para optimizar la navegación.</li>
+                                                <li><strong>Diseño centrado:</strong> Diseño de interacciones accesibles bajo estándares de usabilidad digital.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="cv-item" style="margin-bottom: 2rem;">
+                                    <div class="cv-item-left">
+                                        <div class="cv-company-logo"><i data-lucide="briefcase"></i></div>
+                                    </div>
+                                    <div class="cv-item-right">
+                                        <div class="cv-item-header">
+                                            <h3>Diseñador Gráfico y Animador 3D</h3>
+                                            <h4>Mas Nivel (San Luis Potosí)</h4>
+                                            <span class="cv-date">2014-2019</span>
+                                        </div>
+                                        <div class="cv-item-body">
+                                            <p>Gestión integral de producto, empaques y activos 3D, asi como el desarrollo de interfaces web para la marca Ironmax.</p>
+                                            <ul>
+                                                <li><strong>Diseño de Producto:</strong> Desarrollo integral de bicicletas, empaques y manuales técnicos.</li>
+                                                <li><strong>Modelado y Visualización 3D:</strong> Creación, texturizado y renderizado de activos para productos y videojuegos.</li>
+                                                <li><strong>Desarrollo Digital:</strong> Diseño de interfaces web (UI) y optimización de la experiencia de usuario (UX).</li>
+                                                <li><strong>Identidad de Marca:</strong> Supervisión de activos visuales y gráficos multiplataforma.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <h2 style="font-family: var(--font-serif); font-size: 2.5rem; margin-bottom: 3rem; margin-top: 2rem;">Proyectos Destacados</h2>
+                            <div class="cv-list">
+                                <div class="cv-item">
+                                    <div class="cv-item-left">
+                                        <div class="cv-company-logo"><i data-lucide="monitor-play"></i></div>
+                                    </div>
+                                    <div class="cv-item-right">
+                                        <div class="cv-item-header">
+                                            <h3>Fiesta de Luz Edición Invierno 2012 "Xantolo"</h3>
+                                            <h4>Secretaría de Turismo de San Luis Potosí</h4>
+                                            <span class="cv-date">2012</span>
+                                        </div>
+                                        <div class="cv-item-body">
+                                            <p><strong>Producción Audiovisual y Concept Art:</strong> Creación de arte conceptual, storyboards, ilustración, animación 2D y edición de video.</p>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="cv-item" style="margin-bottom: 2rem;">
+                                    <div class="cv-item-left">
+                                        <div class="cv-company-logo"><i data-lucide="clapperboard"></i></div>
+                                    </div>
+                                    <div class="cv-item-right">
+                                        <div class="cv-item-header">
+                                            <h3>Obra de Teatro "El Malo"</h3>
+                                            <h4>Proyecto Coyote</h4>
+                                            <span class="cv-date">2011-2012</span>
+                                        </div>
+                                        <div class="cv-item-body">
+                                            <p><strong>Realización Audiovisual:</strong> Elaboración de material audiovisual y edición avanzada para asegurar la calidad del producto final.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <h2 style="font-family: var(--font-serif); font-size: 2.5rem; margin-bottom: 3rem; margin-top: 2rem;">Cursos y Diplomados</h2>
+                            <div class="cv-list">
+                                
+                                <div class="cv-item">
+                                    <div class="cv-item-left">
+                                        <div class="cv-company-logo"><i data-lucide="graduation-cap"></i></div>
+                                    </div>
+                                    <div class="cv-item-right">
+                                        <div class="cv-item-header">
+                                            <h3>Google Skills</h3>
+                                            <h4>www.skills.google</h4>
+                                            <span class="cv-date">2025</span>
+                                        </div>
+                                        <div class="cv-item-body">
+                                            <ul>
+                                                <li>Introducción a la ventana de contexto amplia con Gemini en Vertex AI</li>
+                                                <li>Generative AI with Vertex AI: Prompt Design</li>
+                                                <li>Introduction to Image Generation</li>
+                                                <li>Genera resultados de IA generativa más inteligentes</li>
+                                                <li>Introducción a la IA y el aprendizaje automático en Google Cloud</li>
+                                                <li>Comienza a usar Vertex AI Studio</li>
+                                                <li>Introducción a Gemini 2.0 Flash</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="cv-item">
+                                    <div class="cv-item-left">
+                                        <div class="cv-company-logo"><i data-lucide="graduation-cap"></i></div>
+                                    </div>
+                                    <div class="cv-item-right">
+                                        <div class="cv-item-header">
+                                            <h3>Diseño de Experiencia del Usuario (UX) de Google</h3>
+                                            <h4>Google - Coursera</h4>
+                                            <span class="cv-date">2023</span>
+                                        </div>
+                                        <div class="cv-item-body">
+                                            <ul>
+                                                <li>01 - Aspectos básicos del diseño de la experiencia del usuario</li>
+                                                <li>02 - Primeros pasos en el proceso de diseño de UX, Empatizar, definir e idear</li>
+                                                <li>03 - Crear esquemas de página y prototipos de baja fidelidad</li>
+                                                <li>04 - Llevar a cabo investigaciones en UX</li>
+                                                <li>05 - Crear prototipos y diseños de alta fidelidad en Figma</li>
+                                                <li>06 - Diseños web adaptables en Adobe XD</li>
+                                                <li>07 - Diseñar una experiencia del usuario de una iniciativa de interés público y prepararse para el trabajo</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="cv-item">
+                                    <div class="cv-item-left">
+                                        <div class="cv-company-logo"><i data-lucide="graduation-cap"></i></div>
+                                    </div>
+                                    <div class="cv-item-right">
+                                        <div class="cv-item-header">
+                                            <h3>Taller Intensivo de Diseño de la Interacción</h3>
+                                            <h4>www.concreta.com.uy</h4>
+                                            <span class="cv-date">2021</span>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="cv-item">
+                                    <div class="cv-item-left">
+                                        <div class="cv-company-logo"><i data-lucide="graduation-cap"></i></div>
+                                    </div>
+                                    <div class="cv-item-right">
+                                        <div class="cv-item-header">
+                                            <h3>Psicología Cognitiva y Experiencia de Usuario</h3>
+                                            <h4>www.concreta.com.uy</h4>
+                                            <span class="cv-date">2021</span>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="cv-item">
+                                    <div class="cv-item-left">
+                                        <div class="cv-company-logo"><i data-lucide="graduation-cap"></i></div>
+                                    </div>
+                                    <div class="cv-item-right">
+                                        <div class="cv-item-header">
+                                            <h3>Diseñor Gráfico Multimedia para Medios Electrónicos</h3>
+                                            <h4>Tecnológico de Monterrey</h4>
+                                            <span class="cv-date">2014</span>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="cv-item">
+                                    <div class="cv-item-left">
+                                        <div class="cv-company-logo"><i data-lucide="graduation-cap"></i></div>
+                                    </div>
+                                    <div class="cv-item-right">
+                                        <div class="cv-item-header">
+                                            <h3>Congreso de Diseño Gráfico "Dejando Huella"</h3>
+                                            <h4>DeHache - Querétaro</h4>
+                                            <span class="cv-date">2013</span>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="cv-item">
+                                    <div class="cv-item-left">
+                                        <div class="cv-company-logo"><i data-lucide="graduation-cap"></i></div>
+                                    </div>
+                                    <div class="cv-item-right">
+                                        <div class="cv-item-header">
+                                            <h3>E-Leadership Plus Habilidades Gerenciales CDG</h3>
+                                            <h4>Business Leadership Plus</h4>
+                                            <span class="cv-date">2011</span>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="cv-item">
+                                    <div class="cv-item-left">
+                                        <div class="cv-company-logo"><i data-lucide="graduation-cap"></i></div>
+                                    </div>
+                                    <div class="cv-item-right">
+                                        <div class="cv-item-header">
+                                            <h3>Acreditación de Competencias Tecnológicas para la Productividad</h3>
+                                            <h4>SEP - Microsoft México</h4>
+                                            <span class="cv-date">2010</span>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                            </div>
+    
+                        </div>
+    
+                        <aside class="sidebar">
+    
+                            <div class="sidebar-section">
+                                <h3>Estudios</h3>
+                                <div class="education-item">
+                                    <h4>Licenciado en Diseño Gráfico y Animación</h4>
+                                    <p>Universidad TECMilenio Campus San Luis Potosí</p>
+                                    <p>Cédula Profesional: 11664068</p>
+                                </div>
+                                <div class="education-item">
+                                    <h4>Técnico en Informática</h4>
+                                    <p>Centro de Bachillerato Tecnológico Agropecuario No. 123</p>
+                                    <p>Cédula Profesional: 6915557</p>
+                                </div>
+                            </div>
+    
+                            <div class="sidebar-section">
+                                <h3>Premios y Concursos</h3>
+                                <div class="education-item">
+                                    <h4>Medallas Estudiantes Ejemplares 2014</h4>
+                                    <p>San Luis Potosí (2014) - Medallista</p>
+                                </div>
+                                <div class="education-item">
+                                    <h4>Concurso Cartel/Infografía "Piensa San Luis"</h4>
+                                    <p>San Luis Potosí (2013) - 1er Lugar</p>
+                                </div>
+                            </div>
+
+                            <div class="sidebar-section">
+                                <h3>Software y Habilidades</h3>
+                                <ul class="software-list">
+                                    <li class="software-item">Adobe XD <i data-lucide="layout"></i></li>
+                                    <li class="software-item">Figma <i data-lucide="figma"></i></li>
+                                    <li class="software-item">Photoshop <i data-lucide="image"></i></li>
+                                    <li class="software-item">InDesign <i data-lucide="book-open"></i></li>
+                                    <li class="software-item">Illustrator <i data-lucide="pen-tool"></i></li>
+                                    <li class="software-item">After Effects <i data-lucide="video"></i></li>
+                                    <li class="software-item">Premiere <i data-lucide="film"></i></li>
+                                    <li class="software-item">Audition <i data-lucide="mic"></i></li>
+                                    <li class="software-item">HTML/CSS <i data-lucide="code"></i></li>
+                                    <li class="software-item">3ds Max <i data-lucide="box"></i></li>
+                                    <li class="software-item">Suite Office <i data-lucide="file-text"></i></li>
+                                </ul>
+                            </div>
+                            
+                        </aside>
+    
+                    </div>
+                </div>
+            </section>
+        </main>
+
+    <footer id="contacto" class="section-dark">
+        <div class="container">
+            <div class="footer-cta">
+                <h3>¿Tienes un desafío que requiere una visión técnica y creativa?</h3>
+                <a href="contact.html" class="btn">Hablemos de tu idea</a>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-brand">
+                    <div class="logo" style="margin-bottom: 1rem;">Christian Sánchez<span>.</span></div>
+                    <p style="color: var(--text-muted); font-size: 0.8rem;">Basado en la intersección de lo físico y lo digital.</p>
+                </div>
+                
+                <div class="footer-nav">
+                    <div>
+                        <h5>Navegación</h5>
+                        <ul>
+                            <li><a href="#portfolio">Portafolio</a></li>
+                            <li><a href="#servicios">Servicios</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5>Conectar</h5>
+                        <ul>
+                            <li><a href="#">LinkedIn</a></li>
+                            <li><a href="#">Behance</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 4rem; font-size: 0.7rem; color: #333;">
+                &copy; 2024 • Diseñado con precisión.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    
+        function toggleMenu() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('active');
+        }
+    
+    </script>
+</body>
+</html>

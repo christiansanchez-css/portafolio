@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio ▪ Christian Sánchez</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Cairo:wght@400;600;900&display=swap" rel="stylesheet">
+    
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="close-menu" onclick="toggleMenu()">
+            <i data-lucide="x" size="40"></i>
+        </button>
+        <a href="work.html" onclick="toggleMenu()">Portafolio</a>
+        <a href="aboutme.html" onclick="toggleMenu()">Sobre mí</a>
+        <a href="contact.html" onclick="toggleMenu()">Contacto</a>
+    </div>
+
+
+    <nav id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Christian Sánchez<span>.</span></a>
+            <div class="nav-links">
+                <a href="work.html" class="active">Portafolio</a>
+                <a href="aboutme.html">Sobre mí</a>
+                <a href="contact.html">Contacto</a>
+            </div>
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <section class="work-hero section-dark">
+        <div class="container">
+            <p class="category-label">Portafolio</p>
+            <h1>Ideas Materializadas</h1>
+            <p class="work-description">
+                Proyectos que integran el rigor del detalle técnico con la funcionalidad del entorno digital para resolver problemas con coherencia y claridad.
+            </p>
+        </div>
+    </section>
+
+    <section id="work-page" class="section-light">
+        <div class="container">
+            <div class="work-header">
+                <h1>Ideas Tangibles</h1>
+            </div>
+    
+            <div class="work-grid">
+                
+                <a href="work-01.html" class="work-item">
+                    <div class="work-image-wrapper">
+                        <img src="img/01.png" alt="Proyecto">
+                        <div class="work-overlay">
+                            <span>Ver Proyecto</span>
+                        </div>
+                    </div>
+                    
+                    <div class="work-item-footer">
+                        <div class="work-info">
+                            <h3>Interfaces para el TFJA</h3>
+                            <p>UX / UI</p>
+                        </div>
+                        <i data-lucide="arrow-right" class="work-arrow"></i>
+                    </div>
+                </a>
+    
+                <a href="work-02.html" class="work-item">
+                    <div class="work-image-wrapper">
+                        <img src="img/02.png" alt="Proyecto">
+                        <div class="work-overlay">
+                            <span>Ver Proyecto</span>
+                        </div>
+                    </div>
+                    <div class="work-item-footer">
+                        <div class="work-info">
+                            <h3>Cultura y Conexión: El Lenguaje Visual de la Intranet</h3>
+                            <p>Comunicación Interna / Diseño Gráfico</p>
+                        </div>
+                        <i data-lucide="arrow-right" class="work-arrow"></i>
+                    </div>
+                </a>
+    
+                <a href="img/Portafolio.pdf" class="work-item">
+                    <div class="work-image-wrapper">
+                        <img src="img/03.png" alt="Proyecto">
+                        <div class="work-overlay">
+                            <span>Ver Proyecto</span>
+                        </div>
+                    </div>
+                    <div class="work-item-footer">
+                        <div class="work-info">
+                            <h3>Mi book</h3>
+                            <p>Compilación de trabajos (2014 - 2019)</p>
+                        </div>
+                        <i data-lucide="arrow-right" class="work-arrow"></i>
+                    </div>
+                </a>
+    
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacto" class="section-dark">
+        <div class="container">
+            <div class="footer-cta">
+                <h3>¿Tienes un desafío que requiere una visión técnica y creativa?</h3>
+                <a href="contact.html" class="btn">Hablemos de tu idea</a>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-brand">
+                    <div class="logo" style="margin-bottom: 1rem;">Christian Sánchez<span>.</span></div>
+                    <p style="color: var(--text-muted); font-size: 0.8rem;">Basado en la intersección de lo físico y lo digital.</p>
+                </div>
+                
+                <div class="footer-nav">
+                    <div>
+                        <h5>Navegación</h5>
+                        <ul>
+                            <li><a href="#portfolio">Portafolio</a></li>
+                            <li><a href="#servicios">Servicios</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5>Conectar</h5>
+                        <ul>
+                            <li><a href="#">LinkedIn</a></li>
+                            <li><a href="#">Behance</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 4rem; font-size: 0.7rem; color: #333;">
+                &copy; 2024 • Diseñado con precisión.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    
+        function toggleMenu() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('active');
+        }
+    
+    </script>
+</body>
+</html>
